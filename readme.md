@@ -1,1 +1,1 @@
-Faltam mais algumas integrações com Javascrit. Mobile First
+Faltam integrações em JS. Mobile First.

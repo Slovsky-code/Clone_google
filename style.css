@@ -9,13 +9,14 @@ button {
   font-family: Arial, sans-serif;
 }
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu {
@@ -101,6 +102,10 @@ body {
   outline: 0;
 }
 
+.content_search:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
 .container_bonus {
   margin-top: 24px;
   font-size: 13px;
@@ -139,12 +144,11 @@ body {
 }
 
 @media (min-width: 763px) {
-    .content {
-        padding-top: 120px;
-    }
-    .content_logo {
-        width: 480px;
-        height: 150px;
-    }
-    
+  .content {
+    padding-top: 120px;
+  }
+  .content_logo {
+    width: 480px;
+    height: 150px;
+  }
 }
